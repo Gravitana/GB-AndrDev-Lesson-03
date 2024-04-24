@@ -10,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.artistName.text = "The Beatles"
+        binding.trackName.text = "A Hard Day's Night"
     }
 }
